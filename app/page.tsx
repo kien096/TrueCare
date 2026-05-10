@@ -179,6 +179,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ─── TASCO + VETC PARTNER ─── */}
+      <section className="section section--green">
+        <div className="section__inner">
+          <div className="partner-block" data-reveal>
+            <div className="sh sh--center">
+              <div className="sh__kicker">Đối tác chiến lược</div>
+              <h2>Hợp tác cùng Tasco — tích hợp thanh toán VETC.</h2>
+              <p>TrueCare hợp tác với Tập đoàn Tasco, đơn vị vận hành hệ thống thu phí không dừng VETC trên toàn quốc, để mang đến trải nghiệm thanh toán liền mạch cho chủ xe.</p>
+            </div>
+            <div className="partner-logos">
+              <div className="partner-logos__item">
+                <div className="partner-logos__icon"><Icon name="toll" /></div>
+                <span>Tasco Group</span>
+              </div>
+              <div className="partner-logos__item">
+                <div className="partner-logos__icon"><Icon name="contactless" /></div>
+                <span>VETC</span>
+              </div>
+            </div>
+            <ul className="partner-features" data-stagger>
+              <li><Icon name="check_circle" />Thanh toán dịch vụ rửa xe qua tài khoản giao thông VETC — không cần tiền mặt.</li>
+              <li><Icon name="check_circle" />Tích điểm VETC Loyalty mỗi lượt rửa xe, quy đổi 1 điểm = 1 VNĐ.</li>
+              <li><Icon name="check_circle" />Liên kết thẻ E-tag sẵn có — hơn 5 triệu xe ô tô đã dán thẻ trên toàn quốc.</li>
+              <li><Icon name="check_circle" />Một tài khoản cho cả phí đường bộ, gửi xe và chăm sóc xe.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* ─── SERVICES ─── */}
       <section className="section section--soft" id="booking">
         <div className="section__inner">
