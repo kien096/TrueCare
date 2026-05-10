@@ -10,3 +10,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 pnpm-dev*.log
+review-shots/cdp-profile-*/
+review-shots/profile-desktop-*/
+review-shots/profile-mobile-*/
+review-shots/profile-desktop-current/
+review-shots/profile-mobile-current/
