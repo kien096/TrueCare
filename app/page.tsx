@@ -71,7 +71,7 @@ export default function Home() {
         <div className="hero__inner">
           <div className="hero__content">
             <div className="hero__badge"><Icon name="directions_car" /> Nền tảng đặt lịch rửa xe &amp; chăm sóc xe ô tô</div>
-            <h1 id="hero-title">Đặt lịch rửa xe<br /><em>chủ động</em> và minh bạch.</h1>
+            <h1 id="hero-title">Đặt lịch rửa xe<br /><em>chủ động</em><br className="mobile-only-break" /> và minh bạch.</h1>
             <p className="hero__sub">
               Tìm tiệm uy tín gần bạn, xem bảng giá, giữ chỗ trước 30 phút và nhận ảnh xác nhận sau dịch vụ.
             </p>
