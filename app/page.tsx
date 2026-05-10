@@ -2,8 +2,8 @@
 
 import { useEffect } from "react";
 
-const heroImage = "/images/hero.png";
-const merchantImage = "/images/merchant.png";
+const heroImage = "/TrueCare/images/hero.png";
+const merchantImage = "/TrueCare/images/merchant.png";
 
 const reasons = [
   { icon: "search", title: "Thông tin tiệm rõ ràng", text: "Dịch vụ, bảng giá, vị trí và đánh giá — bạn nắm đủ thông tin trước khi quyết định." },
