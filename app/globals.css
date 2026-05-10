@@ -610,9 +610,18 @@ ul, ol { list-style: none; padding: 0; }
 
 @media (max-width: 640px) {
   .hero { padding: 120px var(--gutter) 60px; }
-  .hero__inner, .section__inner { min-width: 0; }
-  .hero__badge {
+  .hero__inner, .section__inner {
+    width: 100%;
+    min-width: 0;
+    max-width: calc(100vw - (2 * var(--gutter)));
+  }
+  .hero__content, .hero__visual {
+    width: 100%;
+    min-width: 0;
     max-width: 100%;
+  }
+  .hero__badge {
+    max-width: calc(100vw - (2 * var(--gutter)));
     white-space: normal;
     justify-content: center;
     text-align: center;
@@ -627,7 +636,7 @@ ul, ol { list-style: none; padding: 0; }
   }
   .hero__actions {
     width: 100%;
-    max-width: 360px;
+    max-width: min(100%, 340px);
     margin-left: auto;
     margin-right: auto;
   }
