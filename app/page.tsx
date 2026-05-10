@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 const heroImage = "/TrueCare/images/hero.png";
 const merchantImage = "/TrueCare/images/merchant.png";
+const aboutImage = "/TrueCare/images/about.png";
 
 const reasons = [
   { icon: "search", title: "Thông tin tiệm rõ ràng", text: "Dịch vụ, bảng giá, vị trí và đánh giá — bạn nắm đủ thông tin trước khi quyết định." },
@@ -111,7 +112,7 @@ export default function Home() {
         <div className="section__inner">
           <div className="two-col">
             <div className="two-col__media" data-reveal="left">
-              <img src={heroImage} alt="Nhân viên đang chăm sóc xe ô tô" />
+              <img src={aboutImage} alt="Chủ xe hài lòng với dịch vụ chăm sóc xe" />
             </div>
             <div className="two-col__text" data-reveal="right">
               <div className="sh__kicker">Về TrueCare</div>
